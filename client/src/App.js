@@ -2,11 +2,12 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import CustomerList from "./components/CustomersList";
 import CustomerCreateUpdate from "./components/CustomerCreateUpdate";
+import './index.css'
 
 const BaseLayout = () => (
   <div className="container-fluid">
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">Django React Demo</a>
+      Django React Demo
       <button className="navbar-toggler" 
               type="button" 
               data-toggle="collapse"  
